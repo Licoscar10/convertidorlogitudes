@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="320dp"
+     android:src="@drawable/img"
+     android:padding="12dp"
+     android:adjustViewBounds="true"
+     ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserte su valor en centímetros"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="@color/Azul"
+        ></TextView>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:padding="12dp"
+    android:hint="Ingrese unidad"
+    android:inputType="number"
+    android:textAlignment="center"
+    android:id="@+id/valor"
+    ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/Amarillo"
+        android:padding="12dp"
+        android:id="@+id/resultado"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Azul"
+        android:text="Calcular"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/calcular"
+
+        ></Button>
+</androidx.appcompat.widget.LinearLayoutCompat>
